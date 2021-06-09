@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>任务（8）</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_in">
+            <div class="content">
+                <div class="hea_left">
+                    <a href=""><img src="images/4.jpg" alt=""></a>
+                    <ul class="nav">
+                        <li>
+                            <a href="" style="color: darkorange;">首页</a>
+                        </li>
+                        <li>
+                            <a href="">榜单</a>
+                        </li>
+                        <li>
+                            <a href="">歌手</a>
+                        </li>
+                        <li>
+                            <a href="">下载酷我客户端</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hea_right">
+                    <ul class="navtwo">
+                        <li>
+                            <span></span>
+                            <a href="">美女秀</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">酷我耳机</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">VIP会员</a>
+                        </li>
+                        <li>
+                            <span></span>
+                            <a href="">i听</a>
+                        </li>
+                        <li>
+                            <a href="">更多服务</a>
+                        </li>
+                        <li>
+                            <a href="">登录</a>
+                        </li>
+                    </ul>
+                    <form action="">
+                        <span class="iconfont">^</span>
+                        <input type="text" placeholder="  找到好音乐" class="text_sea">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content">
+            <div class="con_left">
+                <h2>喜羊羊</h2>
+                <p class="con_left_p1">
+                    专辑：&nbsp;
+                    <span>
+                        <a href="">儿歌大全</a>
+                    </span>&nbsp;
+                    歌手：&nbsp;
+                    <span>
+                        <a href="">华语群星</a>
+                    </span>&nbsp;
+                    分享&nbsp;
+                    <!-- 评论的图片 -->
+                    <span></span>&nbsp;
+                    <span><a href="">评论</a></span>
+                </p>
+                <p>
+                    上传时间：2015-10-02 歌曲来源：网络
+                </p>
+                <hr>
+                <div class="con_left_word">
+                    <p>在所有天气 拥有叫人 大笑的力量</p>
+                    <p>虽然我只是只羊</p>
+                    <p>虽然我只是只羊</p>
+                    <p>喜羊羊 美羊羊 懒羊羊 沸羊羊</p>
+                    <p>慢羊羊 软绵绵 红太狼 灰太狼</p>
+                </div>
+            </div>
+            <div class="con_right">
+                <div class="con_right_cicle">
+                        <div class="con_right_img"></div>
+                        <div class="con_right_cicle_3"></div>
+                        <div class="con_right_cicle_4"></div>
+                </div>
+                <audio src="music.mp3" autoplay="autoplay" id="mymusic"></audio>
+                <div class="player">
+                    <div class="control"></div>
+                    <div class="play_Bar">
+                        <div id="play_processBar"></div>
+                        <div id="play_processBtn" style="left: 0;"></div>
+                    </div>
+                    <p id="playTime">00:00</p>
+                    <div id="play_mute"></div>
+                </div>
+                <div class="download">
+                    <a href="">
+                        <span></span>
+                        免费下载这首歌
+                    </a>
+                </div>
+                <div class="play_below">
+                    <img src="images/郭子仪.jpg" alt="" height="60px" width="60px">
+                    <div class="play_below_box">
+                        <p>郭子仪——H5班</p>
+                        <p>喜羊羊与灰太狼</p>
+                        <a href="">去现场 ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_in">
+            <div class="footer_in_one">
+                <p>评论</p>
+                <p style="font-size: 14px;">1703条评论</p>
+            </div>
+        </div>
+        <div class="footer_comment">
+            <div class="footer_comment_img">
+                <img src="./images/郭子仪.jpg" alt="" height="60px" width="60px" id="imgPic">
+                <textarea name="" id="texteraCon" cols="30" rows="10" placeholder="分享你的音乐见解"></textarea>
+            </div>
+            <img src="./images/commenticon.png" alt="" class="commenticon">
+            <input type="submit" value="评论" class="comment_button">
+        </div>
+        <div class="footer_word">
+            <p style="margin-bottom: 20px;">精彩评论</p>
+            <hr>
+        </div>
+        <div class="footer_content"></div>
+        <div class="page">
+            <div class="page_box">
+                <span><a href="">&lt;</a></span>
+                <span><a href="">1</a></span>
+                <span><a href="">2</a></span>
+                <span><a href="">3</a></span>
+                ... 
+                <span><a href="">17</a></span>
+                <span><a href="">&gt;</a></span>
+            </div>
+        </div>
+    </div>
+    <div style="width: 2px; height: 50px;"></div>
+</body>
+<script src="work.js"></script>
+</html>
